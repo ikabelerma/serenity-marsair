@@ -8,4 +8,5 @@ Feature: Searching for flights
     When I select departing in July
     And I select returning in December (two years from now)
     And I choose to Search
-    Then I see Call now on 0800 MARSAIR to book!
+    Then I see Seats available!
+    And I see Call now on 0800 MARSAIR to book!
